@@ -16,13 +16,13 @@ namespace Lab1_Nt106
         {
             InitializeComponent();
         }
-        public bool Kt_thong_tin()
+        public bool Kt_thong_tin(string arr)
         {
-            foreach (char value in textBox1.Text)
+            foreach(char value in arr)
             {
                 try
                 {
-                    int number = Convert.ToInt32(textBox1.Text);
+                    int number = Convert.ToInt32(arr);
                 }
                 catch (FormatException)
                 {
@@ -31,25 +31,7 @@ namespace Lab1_Nt106
                 }
                 catch (OverflowException)
                 {
-                    MessageBox.Show("Tràn vl Vui lòng nhập lại số nguyên");
-                    return false;
-                }
-            }
-
-            foreach (char value in textBox2.Text)
-            {
-                try
-                {
-                    int number = Convert.ToInt32(textBox2.Text);
-                }
-                catch (FormatException)
-                {
-                    MessageBox.Show("Vui lòng nhập lại số nguyên");
-                    return false;
-                }
-                catch (OverflowException)
-                {
-                    MessageBox.Show("Tràn vl Vui lòng nhập lại số nguyên");
+                    MessageBox.Show("Tràn số vui lòng nhập lại số nguyên");
                     return false;
                 }
             }
@@ -59,16 +41,13 @@ namespace Lab1_Nt106
         {
             int num1, num2;
             long sum = 0;
-            if(Kt_thong_tin())
+            if(Kt_thong_tin(textBox1.Text)&&Kt_thong_tin(textBox2.Text)) 
             {
-                num1 = Int32.Parse(textBox1.Text.Trim());
-                num2 = Int32.Parse(textBox2.Text.Trim());
+                num1 = Int32.Parse(textBox1.Text);
+                num2 = Int32.Parse(textBox2.Text);
                 sum = num1 + num2;
                 textBox3.Text = sum.ToString();
             }
-            
-           
-            
         }
     }
 }

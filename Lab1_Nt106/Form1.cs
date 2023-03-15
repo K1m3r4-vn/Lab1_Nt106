@@ -32,5 +32,11 @@ namespace Lab1_Nt106
             Bài_1 B1 = new Bài_1();
             B1.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Bài_2 B2 = new Bài_2();
+            B2.ShowDialog();
+        }
     }
 }
