@@ -1,0 +1,12 @@
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\bin\Debug\Lab1_Nt106.exe.config
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\bin\Debug\Lab1_Nt106.exe
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\bin\Debug\Lab1_Nt106.pdb
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.Bài_1.resources
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.Form1.resources
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.Properties.Resources.resources
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.exe
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.pdb

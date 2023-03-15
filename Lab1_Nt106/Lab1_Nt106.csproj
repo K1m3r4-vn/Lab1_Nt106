@@ -46,6 +46,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bài_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bài_1.Designer.cs">
+      <DependentUpon>Bài_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bài_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bài_2.Designer.cs">
+      <DependentUpon>Bài_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bài_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bài_3.Designer.cs">
+      <DependentUpon>Bài_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bài_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bài_4.Designer.cs">
+      <DependentUpon>Bài_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bài_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bài_5.Designer.cs">
+      <DependentUpon>Bài_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bài_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bài_6.Designer.cs">
+      <DependentUpon>Bài_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bài_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bài_7.Designer.cs">
+      <DependentUpon>Bài_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bài_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bài_8.Designer.cs">
+      <DependentUpon>Bài_8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bài_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bài_9.Designer.cs">
+      <DependentUpon>Bài_9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +108,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Bài_1.resx">
+      <DependentUpon>Bài_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

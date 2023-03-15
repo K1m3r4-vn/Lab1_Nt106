@@ -16,5 +16,21 @@ namespace Lab1_Nt106
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Bài1_Click(object sender, EventArgs e)
+        {
+            Bài_1 B1 = new Bài_1();
+            B1.ShowDialog();
+        }
     }
 }
