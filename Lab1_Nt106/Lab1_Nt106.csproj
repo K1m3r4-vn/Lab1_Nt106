@@ -111,6 +111,9 @@
     <EmbeddedResource Include="Bài_1.resx">
       <DependentUpon>Bài_1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Bài_2.resx">
+      <DependentUpon>Bài_2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

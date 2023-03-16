@@ -16,5 +16,13 @@ namespace Lab1_Nt106
         {
             InitializeComponent();
         }
+        public void So_sanh(string arr1,string arr2)
+        {
+
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

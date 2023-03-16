@@ -18,6 +18,11 @@ namespace Lab1_Nt106
         }
         public bool Kt_thong_tin(string arr)
         {
+            if(arr=="")
+            {
+                MessageBox.Show("Vui Lòng nhập thông tin");
+                return false;
+            }    
             foreach(char value in arr)
             {
                 try
@@ -48,6 +53,10 @@ namespace Lab1_Nt106
                 sum = num1 + num2;
                 textBox3.Text = sum.ToString();
             }
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
