@@ -94,12 +94,6 @@
     <Compile Include="Bài_8.Designer.cs">
       <DependentUpon>Bài_8.cs</DependentUpon>
     </Compile>
-    <Compile Include="Bài_9.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bài_9.Designer.cs">
-      <DependentUpon>Bài_9.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +107,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bài_2.resx">
       <DependentUpon>Bài_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bài_3.resx">
+      <DependentUpon>Bài_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bài_5.resx">
+      <DependentUpon>Bài_5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
