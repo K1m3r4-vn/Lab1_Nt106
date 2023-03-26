@@ -54,5 +54,11 @@ namespace Lab1_Nt106
         {
             Math_A(textBox1.Text,textBox2.Text);
         }
+
+        private void Del_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+        }
     }
 }

@@ -24,7 +24,8 @@ namespace Lab1_Nt106
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            Bài_4 B4 = new Bài_4();
+            B4.ShowDialog();
         }
 
         private void Bài1_Click(object sender, EventArgs e)
@@ -49,6 +50,12 @@ namespace Lab1_Nt106
         {
             Bài_5 B5 = new Bài_5();
             B5.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Bài_6 B6 = new Bài_6();
+            B6.ShowDialog();
         }
     }
 }

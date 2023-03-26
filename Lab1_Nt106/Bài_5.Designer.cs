@@ -32,7 +32,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.TinhToan = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Del = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -69,14 +69,15 @@
             this.TinhToan.UseVisualStyleBackColor = true;
             this.TinhToan.Click += new System.EventHandler(this.TinhToan_Click);
             // 
-            // button2
+            // Del
             // 
-            this.button2.Location = new System.Drawing.Point(393, 151);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(112, 36);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Del.Location = new System.Drawing.Point(393, 151);
+            this.Del.Name = "Del";
+            this.Del.Size = new System.Drawing.Size(112, 36);
+            this.Del.TabIndex = 4;
+            this.Del.Text = "Xóa";
+            this.Del.UseVisualStyleBackColor = true;
+            this.Del.Click += new System.EventHandler(this.Del_Click);
             // 
             // button3
             // 
@@ -93,7 +94,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.Del);
             this.Controls.Add(this.TinhToan);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -111,7 +112,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button TinhToan;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Del;
         private System.Windows.Forms.Button button3;
     }
 }
