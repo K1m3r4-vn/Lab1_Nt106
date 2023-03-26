@@ -15,3 +15,4 @@ C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.Bài_3.res
 C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.Bài_5.resources
 C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.Bài_6.resources
 C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.Bài_4.resources
+C:\Users\Dell\source\repos\Lab1_Nt106\Lab1_Nt106\obj\Debug\Lab1_Nt106.Bài_8.resources

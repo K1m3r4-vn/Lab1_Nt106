@@ -25,17 +25,17 @@ namespace Lab1_Nt106
             if (Bike_Type.Text == "Wave Alpha")
             {
                 Fuel_Type.Items.Add("RON 95-III");
-                Fuel_Type.Items.Add("Ron 92-II");
+                Fuel_Type.Items.Add("RON 92-II");
             }
             else if (Bike_Type.Text == "Sirius")
             {
                 Fuel_Type.Items.Add("RON 95-III");
-                Fuel_Type.Items.Add("Ron 92-II");
+                Fuel_Type.Items.Add("RON 92-II");
             }
             else if (Bike_Type.Text == "Vision")
             {
                 Fuel_Type.Items.Add("RON 95-III");
-                Fuel_Type.Items.Add("Ron 92-II");
+                Fuel_Type.Items.Add("RON 92-II");
             }
             else if (Bike_Type.Text == "Lead")
                 Fuel_Type.Items.Add("RON 95-III");
@@ -61,7 +61,7 @@ namespace Lab1_Nt106
         {
             double Fuel_Tp = 0;
             if (Fuel_Type.Text == "RON 95-III") Fuel_Tp = 26830;
-            else if (Fuel_Type.Text == "Ron 92-II") Fuel_Tp = 26070;
+            else if (Fuel_Type.Text == "RON 92-II") Fuel_Tp = 26070;
             else if (Fuel_Type.Text == "DO") Fuel_Tp = 21310;
             double Fuel_Km = 0;
             double Fuel_Contain = 0; ;
